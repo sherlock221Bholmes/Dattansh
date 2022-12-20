@@ -435,7 +435,7 @@ color: #000000;
   }
   .site-navigation .navbar-collapse {
     position: relative;
-    background-color: #000000;
+    background-color: #2ed16c;
     z-index: 99;
     text-align: center;
     border-top: 0;
@@ -2511,8 +2511,12 @@ textarea.form-control {
 
 .section-networks a {
   margin: 10px 8px 5px;
-  color: #ffffff;
+  color: #000000;
   box-shadow: none;
+}
+.bl{
+  color:#000000;
+  border: 1px solid #000000;
 }
 
 .section-networks a:hover, .section-networks a:focus {
