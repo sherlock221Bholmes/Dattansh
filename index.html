@@ -1,3 +1,17 @@
+<!-- 
+==========================================================================================================
+Name of the Program:    index.html
+Description:            This is the website designed for Guest Lecture Committee DSDA, SCIT                               
+Name of the Client:     SCIT
+Author:                 Shivam Trivedi
+Organization:          	Symbiosis Centre for Information Technology
+Initial Ver&Date:       1.0, 15/12/2022
+----------------------------------------------------------------------------------------------------------
+REVISION HISTORY
+Version No  :   Revision Date:     Author:                    Details
+ 1				15/12/2022			   Shivam Trivedi		  Web Developer, Web & Media Core Committee
+==========================================================================================================
+-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,6 +35,7 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Varela" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=League Spartan' rel='stylesheet'>
 
     <!-- Favicon
     ================================================== -->
@@ -56,26 +71,33 @@
     <!-- Hero Section, Background Image change in css -->
     <div id="top" class="hero background-overlay">
 
+
         <!-- Name & Description -->
-        <div class="hero-content text-center">
-            <a href="https://www.scit.edu/" target="_blank">
+        <a href="https://www.scit.edu/" class="video-description" target="_blank">
+            <img src="assets/img/logo (1).png" style="z-index: 1;">
+        </a>
+
+        <div class="box hero-content text-center">
+            <video src="assets/img/bgv2.mp4" autoplay muted loop></video>
+
+            <a href="https://www.scit.edu/" class="" target="_blank">
                 <img src="assets/img/logo (1).png" class="scit">
             </a>
-            <h1>DATA NOTITIA</h1>
-            <p class="hero-job"><span>SEE WHAT YOU CAN'T SEE</span></p>
-            <p class="hero-job-desc">17<sup>th</sup>DECEMBER<br> VENUE: SCIT, PUNE, MAHARASHTRA</p>
+
+            <h1> <img src="assets/img/Screenshot_2022-12-15_at_8.30.53-removebg-preview .png" class="mainlogo"></h1>
+            <p id="demo" class="hero-job"></p>
+
             <a href="" class="btn register-btn">Register</a>
 
-        </div><!-- /.hero-content -->
+        </div>
 
         <div class="hero-arrow page-scroll home-arrow-down">
 
             <a class="" href="#intro"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
-        </div><!-- /.hero-arrow -->
+        </div>
 
-    </div><!-- /.hero -->
+    </div>
     <!-- End Hero -->
-
     <!-- Header -->
     <header id="masthead" class="site-header">
         <nav id="primary-navigation" class="site-navigation" data-spy="affix">
@@ -91,9 +113,9 @@
 
                     <!-- Name -->
                     <div class="page-scroll site-logo">
-                        <a href="#top">Dattansh</a>
+                        <img class="logo-img" src="assets/img/Untitled_design-removebg-preview.png" ALT="align box"
+                            ALIGN=CENTER>
                     </div>
-
                 </div><!-- /.navbar-header -->
 
                 <div class="main-menu collapse navbar-collapse" id="portfolio-perfect-collapse">
@@ -125,85 +147,28 @@
                 <h2>ABOUT US</h2>
                 <p class="section-subtitle"><span>WELCOME TO DATTANSH</span></p>
                 <div class="row">
-                    <div class="col-sm-4">
-                        <div class="main-service text-right">
-                            <div class="rectangle">
-                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                            </div><!-- /.rectangle -->
-                            <h3>SAVE THE DATE</h3>
-                            <p>BE THERE ON 17<sup>TH</sup>DECEMBER, 2022</p>
-                        </div><!-- /.main-service -->
-                        <div class="main-service text-right">
-                            <div class="rectangle">
-                                <i class="fa fa-comments" aria-hidden="true"></i>
-                            </div>
-                            <h3>BROUGHT TO YOU BY</h3>
-                            <p>GUEST LECTURE COMMITTEE DSDA, SCIT</p>
-                        </div><!-- /.main-service -->
+
+                    <div <p class="para">Symbiosis Centre for Information Technology (SCIT) organizes an Annual
+                        Analytics Conclave every year, named DATTANSH, for all trending and upcoming
+                        technologies & applications in the world of Data Analytics.Dattansh
+                        provides a forum for participants to gain an expert perspective on the exciting
+                        world of data analytics by competing in various contests, and to learn about the
+                        journey of data in real-life and industrial use cases by connecting with
+                        knowledgeable speakers. Come and join us in this journey to the space of data
+                        and experience extravagance in terms of knowledge sharing, and Competition.
+                        The 5th edition to be held on 21 January 2023.</p>
                     </div>
-                    <div class="col-sm-4">
-                        <div class="big-rectangle">
-                            <img src="assets/img/Untitled_design-removebg-preview.png" alt="" height="70%" width="150%">
-                        </div><!-- /.big-rectangle -->
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="main-service text-left">
-                            <div class="rectangle">
-                                <i class="fa fa-check" aria-hidden="true"></i>
-                            </div>
-                            <h3>LOCATION</h3>
-                            <p>SYMBIOSIS INFOTECH CAMPUS, PUNE, MAHARASHTRA, INDIA</p>
-                        </div><!-- /.main-service -->
-                        <div class="main-service text-left">
-                            <div class="rectangle">
-                                <i class="fa fa-list" aria-hidden="true"></i>
-                            </div><!-- /.rectangle -->
-                            <h3>TOPIC</h3>
-                            <p>DATA NOTITIA: SEE WHAT YOU CAN'T SEE</p>
-                        </div><!-- /.main-service -->
-                    </div>
-                    <div class="para">
-                        <p>Symbiosis Centre for Information Technology (SCIT) organizes an Annual
-                            Analytics Conclave every year, named DATTANSH, for all trending and upcoming
-                            technologies & applications in the world of Data Analytics.Dattansh
-                            provides a forum for participants to gain an expert perspective on the exciting
-                            world of data analytics by competing in various contests, and to learn about the
-                            journey of data in real-life and industrial use cases by connecting with
-                            knowledgeable speakers. Come and join us in this journey to the space of data
-                            and experience extravagance in terms of knowledge sharing, and Competition.
-                            The 5th edition to be held on 21 January 2023.</p>
+                    <div class="col-sm-12 video">
+
+                        <iframe src="assets/img/Copy of coming soon (Presentation (169)) (Video).mp4" class="video-wt"
+                            width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                            allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
         </section><!-- /.section-hello -->
         <!-- End Hello section -->
 
-        <!-- Quote section -->
-        <section class="section-background section-quote background-overlay text-center">
-            <div class="container">
-                <h2 style="color: hsl(115, 100%, 50%); font-weight: bolder; font-size: 50px;">DATA NOTITIA</h2>
-                <p>Marketplace (Data Centre and Warehousing) where technologies come together
-                    with a single common entity- DATA or information exchange and processing.</p>
-            </div>
-        </section><!-- /.section-quote -->
-        <!-- End Quote section -->
-
-
-        <!-- Skills section -->
-        <section class="site-section section-skills">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h2>Introduction video</h2>
-                        <iframe src="assets/img/Copy of coming soon (Presentation (169)) (Video).mp4" class="video-wt"
-                            width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen
-                            allowfullscreen></iframe>
-                    </div>
-
-                </div>
-            </div>
-        </section><!-- /.section-skills -->
-        <!-- End Skills section -->
         <!-- Team section -->
         <section class="site-section section-team" id="speakers">
             <div class="container">
@@ -218,17 +183,16 @@
                                 <div class="flipper">
                                     <div class="team-member-front">
                                         <div class="team-member-thumb">
-                                            <img src="assets/img/employee-1.jpg" class="img-res" alt="">
+                                            <img src="assets/img/to-be-announced-rubber-stamp-vector-13489195.jpg"
+                                                class="img-res" alt="">
                                         </div> <!-- /.team-member-thumb -->
-                                        <p class="team-member-front-name">DIANA JOHNSON</p>
+                                        <p class="team-member-front-name">TO BE ANOUNCED!!!!!</p>
                                     </div><!-- /.team-member-front -->
                                     <div class="team-member-back">
                                         <div class="team-member-info">
-                                            <h3 class="team-member-back-name">DIANA JOHNSON</h3>
-                                            <p class="team-member-back-position">Web Designer</p>
-                                            <p class="team-member-back-info">Curabitur nulla odio bibendum sit amet
-                                                facilisis sed lobortis id, just Donec ollic itudin facil isis nulla.
-                                                Donec eget ligula. </p>
+                                            <h3 class="team-member-back-name">TO BE ANOUNCED!!!!!</h3>
+                                            <p class="team-member-back-position"></p>
+                                            <p class="team-member-back-info"></p>
                                             <div class="social-icons small">
                                                 <a href="#" class="rectangle"><i class="fa fa-linkedin"></i></a>
                                             </div>
@@ -243,17 +207,16 @@
                                 <div class="flipper">
                                     <div class="team-member-front">
                                         <div class="team-member-thumb">
-                                            <img src="assets/img/employee-2.jpg" class="img-res" alt="">
+                                            <img src="assets/img/to-be-announced-rubber-stamp-vector-13489195.jpg"
+                                                class="img-res" alt="">
                                         </div> <!-- /.team-member-thumb -->
-                                        <p class="team-member-front-name">ADAM HENRY</p>
+                                        <p class="team-member-front-name">TO BE ANOUNCED!!!!!</p>
                                     </div><!-- /.team-member-front -->
                                     <div class="team-member-back">
                                         <div class="team-member-info">
-                                            <h3 class="team-member-back-name">ADAM HENRY</h3>
-                                            <p class="team-member-back-position">Web Developer</p>
-                                            <p class="team-member-back-info">Curabitur nulla odio bibendum sit amet
-                                                facilisis sed lobortis id, just Donec ollic itudin facil isis nulla.
-                                                Donec eget ligula. </p>
+                                            <h3 class="team-member-back-name">TO BE ANOUNCED!!!!!</h3>
+                                            <p class="team-member-back-position"></p>
+                                            <p class="team-member-back-info"></p>
                                             <div class="social-icons small">
                                                 <a href="#" class="rectangle"><i class="fa fa-linkedin"></i></a>
                                             </div>
@@ -268,17 +231,16 @@
                                 <div class="flipper">
                                     <div class="team-member-front">
                                         <div class="team-member-thumb">
-                                            <img src="assets/img/employee-3.jpg" class="img-res" alt="">
+                                            <img src="assets/img/to-be-announced-rubber-stamp-vector-13489195.jpg"
+                                                class="img-res" alt="">
                                         </div> <!-- /.team-member-thumb -->
-                                        <p class="team-member-front-name">ROBERT DOE</p>
+                                        <p class="team-member-front-name">TO BE ANOUNCED!!!!!</p>
                                     </div><!-- /.team-member-front -->
                                     <div class="team-member-back">
                                         <div class="team-member-info">
-                                            <h3 class="team-member-back-name">ROBERT DOE</h3>
-                                            <p class="team-member-back-position">Mobile APP Developer</p>
-                                            <p class="team-member-back-info">Curabitur nulla odio bibendum sit amet
-                                                facilisis sed lobortis id, just Donec ollic itudin facil isis nulla.
-                                                Donec eget ligula. </p>
+                                            <h3 class="team-member-back-name">TO BE ANOUNCED!!!!!</h3>
+                                            <p class="team-member-back-position"></p>
+                                            <p class="team-member-back-info"></p>
                                             <div class="social-icons small">
                                                 <a href="#" class="rectangle"><i class="fa fa-linkedin"></i></a>
                                             </div>
@@ -293,17 +255,16 @@
                                 <div class="flipper">
                                     <div class="team-member-front">
                                         <div class="team-member-thumb">
-                                            <img src="assets/img/employee-4.jpg" class="img-res" alt="">
+                                            <img src="assets/img/to-be-announced-rubber-stamp-vector-13489195.jpg"
+                                                class="img-res" alt="">
                                         </div> <!-- /.team-member-thumb -->
-                                        <p class="team-member-front-name">JULIA BROWN</p>
+                                        <p class="team-member-front-name">TO BE ANOUNCED!!!!!</p>
                                     </div><!-- /.team-member-front -->
                                     <div class="team-member-back">
                                         <div class="team-member-info">
-                                            <h3 class="team-member-back-name">JULIA BROWN</h3>
-                                            <p class="team-member-back-position">Seo Specialist</p>
-                                            <p class="team-member-back-info">Curabitur nulla odio bibendum sit amet
-                                                facilisis sed lobortis id, just Donec ollic itudin facil isis nulla.
-                                                Donec eget ligula. </p>
+                                            <h3 class="team-member-back-name">TO BE ANOUNCED!!!!!</h3>
+                                            <p class="team-member-back-position"></p>
+                                            <p class="team-member-back-info"></p>
                                             <div class="social-icons small">
 
                                                 <a href="#" class="rectangle"><i class="fa fa-linkedin"></i></a>
@@ -328,126 +289,135 @@
 
             <div class="container-fluid">
                 <h2>EVENTS</h2>
-                <p class="section-subtitle"><span>_______________</span></p>
-            </div>
+                <div class="container">
 
-            <div class="container">
-
-                <div class="carousel slide" id="services-carousel">
+                    <div class="carousel slide" id="services-carousel">
 
 
 
-                    <div class="carousel-indicators nav-tabs text-center">
-                        <a data-target="#services-carousel" href="#" data-slide-to="0" class="active">
-                            <div class="col-xs-4 col-sm-fifth">
-                                <div class="service">
-                                    <div class="rectangle">
-                                        <i class="fa fa-laptop" aria-hidden="true"></i>
-                                    </div>
-                                    <p class="hidden-xs">FAIR OF PROPOSAL</p>
-                                </div>
-                            </div>
-                        </a><!-- /.item -->
-                        <a data-target="#services-carousel" href="#" data-slide-to="1">
-                            <div class="col-xs-4 col-sm-fifth">
-                                <div class="service">
-                                    <div class="rectangle">
-                                        <i class="fa fa-code" aria-hidden="true"></i>
-                                    </div>
-                                    <p class="hidden-xs">TECHSALA</p>
-                                </div>
-                            </div>
-                        </a><!-- /.item -->
-                        <a data-target="#services-carousel" href="#" data-slide-to="2">
-                            <div class="col-xs-4 col-sm-fifth">
-                                <div class="service">
-                                    <div class="rectangle">
-                                        <i class="fa fa-mobile" aria-hidden="true"></i>
-                                    </div>
-                                    <p class="hidden-xs">MIND BLENDERS</p>
-                                </div>
-                            </div>
-                        </a><!-- /.item -->
-                        <a data-target="#services-carousel" href="#" data-slide-to="3">
-                            <div class="col-xs-4 col-sm-fifth">
-                                <div class="service">
-                                    <div class="rectangle">
-                                        <i class="fa fa-search" aria-hidden="true"></i>
-                                    </div>
-                                    <p class="hidden-xs">ANALYST ADS</p>
-                                </div>
-                            </div>
-                        </a><!-- /.item -->
-
-                    </div><!-- /.carousel-indicators -->
-
-
-                    <div class="carousel-inner">
-                        <!-- Item 1 -->
-                        <div id="item1" class="item tab-pane active">
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <div class="service-info">
-                                        <h3 class="service-title">FAIR OF PROPOSAL</h3>
-                                        <p>THE PARTICIPANTS NEEDS TO PITCH A PRODUCT BASED ON AI/ML
-                                            TECHNOLOGY WITH A PRESENTATION</p>
-
+                        <div class="carousel-indicators nav-tabs text-center">
+                            <a data-target="#services-carousel" href="#" data-slide-to="0" class="active">
+                                <div class="col-xs-4 col-sm-fifth">
+                                    <div class="service">
+                                        <div class="rectangle">
+                                            <i class="fa fa-handshake-o" aria-hidden="true"></i>
+                                        </div>
+                                        <p class="hidden-xs">FAIR OF PROPOSAL</p>
                                     </div>
                                 </div>
-                                <div class="col-md-7">
-                                    <img src="assets/img/web-design.jpg" class="img-responsive" alt="">
-                                </div>
-                            </div>
-                        </div><!-- /.item -->
-                        <!-- Item 2 -->
-                        <div id="item2" class="item tab-pane">
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <div class="service-info">
-                                        <h3 class="service-title">TECHSALA</h3>
-                                        <p>AN EVENT WHERE THE PARTICIPANTS HAVE TO DESIGN A DASHBOARD
-                                            USING POWER BI OR TABLEAU DESKTOP FOR THE GIVEN DATA.</p>
+                            </a><!-- /.item -->
+                            <a data-target="#services-carousel" href="#" data-slide-to="1">
+                                <div class="col-xs-4 col-sm-fifth">
+                                    <div class="service">
+                                        <div class="rectangle">
+                                            <i class="fa fa-code" aria-hidden="true"></i>
+                                        </div>
+                                        <p class="hidden-xs">TECHSALA</p>
                                     </div>
                                 </div>
-                                <div class="col-md-7">
-                                    <img src="assets/img/web-development.jpg" class="img-responsive" alt="">
-                                </div>
-                            </div>
-                        </div><!-- /.item -->
-                        <!-- Item 3 -->
-                        <div id="item3" class="item tab-pane">
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <div class="service-info">
-                                        <h3 class="service-title">MINDBLENDERS</h3>
-                                        <p>CROSSWORD PUZZLES RELATED TO CONCEPTS AND THEMES OF DATA
-                                            SCIENCE</p>
+                            </a><!-- /.item -->
+                            <a data-target="#services-carousel" href="#" data-slide-to="2">
+                                <div class="col-xs-4 col-sm-fifth">
+                                    <div class="service">
+                                        <div class="rectangle">
+                                            <i class="fa fa-mobile" aria-hidden="true"></i>
+                                        </div>
+                                        <p class="hidden-xs">MIND BLENDERS</p>
                                     </div>
                                 </div>
-                                <div class="col-md-7">
-                                    <img src="assets/img/mobile-development.jpg" class="img-responsive" alt="">
-                                </div>
-                            </div>
-                        </div><!-- /.item -->
-                        <!-- Item 4 -->
-                        <div id="item4" class="item tab-pane">
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <div class="service-info">
-                                        <h3 class="service-title">ANALYST ADS</h3>
-                                        <p>NEED TO CREATE ADS USING CANVA OR ANY OTHER POSTER MAKING
-                                            TOOL USING GIVEN DATA SCIENCE TOPICS.</p>
+                            </a><!-- /.item -->
+                            <!-- <a data-target="#services-carousel" href="#" data-slide-to="3">
+                                <div class="col-xs-4 col-sm-fifth">
+                                    <div class="service">
+                                        <div class="rectangle">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </div>
+                                        <p class="hidden-xs">ANALYST ADS</p>
                                     </div>
                                 </div>
-                                <div class="col-md-7">
-                                    <img src="assets/img/seo-optimization.jpg" class="img-responsive" alt="">
-                                </div>
-                            </div>
-                        </div><!-- /.item -->
-                        <!-- Item 5 -->
+                            </a>/.item -->
 
-                    </div><!-- /.carousel-inner -->
-                </div><!-- /.carousel -->
+                        </div><!-- /.carousel-indicators -->
+
+
+                        <div class="carousel-inner">
+                            <!-- Item 1 -->
+                            <div id="item1" class="item tab-pane active">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="service-info">
+                                            <h3 class="service-title">FAIR OF PROPOSAL</h3>
+                                            <p>The Fair of Proposal is a competition where participating teams will have
+                                                to propose new start-up ideas or design plans that are based upon the
+                                                AI/ML technologies, which will address the unidentified problems of the
+                                                society. Teams need to analyse their innovative start-up plan by
+                                                discussing the solution it provides, product usability, impact on the
+                                                allied industry, future growth, revenue model and market strategy.</p>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <img src="assets/img/web-design.jpg" class="img-responsive" alt="">
+                                    </div>
+                                </div>
+                            </div><!-- /.item -->
+                            <!-- Item 2 -->
+                            <div id="item2" class="item tab-pane">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="service-info">
+                                            <h3 class="service-title">TECHSALA: Dashboard Creation</h3>
+                                            <p>India is a diverse country with its diverse taste in sports. Recently, the
+                                                national game of India, Hockey which has seen a decline in its
+                                                popularity has seen an upsurge in recent times especially after the
+                                                Olympics. Our Event Techshala is all about making an interactive
+                                                dashboard based on professional Hockey dataset that will be visible on
+                                                the platform post registration.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <img src="assets/img/web-development.jpg" class="img-responsive" alt="">
+                                    </div>
+                                </div>
+                            </div><!-- /.item -->
+                            <!-- Item 3 -->
+                            <div id="item3" class="item tab-pane">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="service-info">
+                                            <h3 class="service-title">MINDBLENDERS</h3>
+                                            <p>Roll yourself in for a never seen before crossword puzzle challenge on
+                                                Basics of Data Science and Data Analytics conducted by the Dattansh’23
+                                                SCIT. Hurry up there’s no time to lose, enrol yourselves in for an
+                                                astounding experience and see if you have what it takes to decrypt the
+                                                crosswords.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <img src="assets/img/mobile-development.jpg" class="img-responsive" alt="">
+                                    </div>
+                                </div>
+                            </div><!-- /.item -->
+                            <!-- Item 4 -->
+                            <!-- <div id="item4" class="item tab-pane">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="service-info">
+                                            <h3 class="service-title">ANALYST ADS</h3>
+                                            <p>NEED TO CREATE ADS USING CANVA OR ANY OTHER POSTER MAKING
+                                                TOOL USING GIVEN DATA SCIENCE TOPICS.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <img src="assets/img/seo-optimization.jpg" class="img-responsive" alt="">
+                                    </div>
+                                </div>
+                            </div>/.item -->
+                            <!-- Item 5 -->
+
+                        </div><!-- /.carousel-inner -->
+                    </div><!-- /.carousel -->
+                </div>
             </div>
         </section><!-- /.section-services -->
         <!-- End Services section -->
@@ -481,10 +451,27 @@
                                 </div><!-- /.timeline-position -->
                             </div><!-- /.timeline-heading -->
                             <div class="timeline-body text-center">
+                                <!-- Portfolio item -->
+                                <div class="col-md-12 col-sm-12 col-xs-12" data-groups='["webdesign"]'>
+                                    <div class="portfolio-item">
+                                        <div class="portfolio-item-thumb">
+                                            <img src="assets/img/dts19.png" alt="" class="img-res">
+                                            <a href="#" class="rectangle" data-toggle="modal"
+                                                data-target="#portfolioItem1">
+                                                <i class="fa fa-plus"></i>
+                                            </a>
+                                        </div><!-- /.portfolio-item-thumb  -->
+                                        <div class="portfolio-info">
+                                            <h3>QUANTIFYING THE UNIMAGINABLE</h3>
 
-                                <p>QUANTIFYING THE UNIMAGINABLE</p>
-                                <a href="https://dattansh.scit.edu/dattansh%2018-19/" class="btn hist"
-                                    target="_blank">VISIT</a>
+                                        </div><!-- /.portfolio-info  -->
+
+                                    </div>
+                                </div><!-- /.col-md-3  -->
+                                <!-- Portfolio item -->
+
+
+
                             </div><!-- /.timeline-body -->
                         </div><!-- /.timeline-panel -->
                     </li>
@@ -508,8 +495,22 @@
                             </div><!-- /.timeline-heading -->
                             <div class="timeline-body text-center">
 
-                                <p>THE ERA WHERE DATA DICTATES</p>
-                                <a href="https://dattansh.scit.edu/2019-20/" class="btn hist" target="_blank">VISIT</a>
+                                <!-- Portfolio item -->
+                                <div class="col-md-12 col-sm-12 col-xs-12" data-groups='["webdev"]'>
+                                    <div class="portfolio-item">
+                                        <div class="portfolio-item-thumb">
+                                            <img src="assets/img/dts20.png" alt="" class="img-res">
+                                            <a href="#" class="rectangle" data-toggle="modal"
+                                                data-target="#portfolioItem2">
+                                                <i class="fa fa-plus"></i>
+                                            </a>
+                                        </div><!-- /.portfolio-item-thumb  -->
+                                        <div class="portfolio-info">
+                                            <h3>THE ERA WHERE DATA DICTATES</h3>
+
+                                        </div><!-- /.portfolio-info  -->
+                                    </div>
+                                </div><!-- /.col-md-3  -->
                             </div><!-- /.timeline-body -->
                         </div><!-- /.timeline-panel -->
                     </li><!-- /.timeline-inverted -->
@@ -531,8 +532,23 @@
                             </div><!-- /.timeline-heading -->
                             <div class="timeline-body text-center">
 
-                                <p>VOYAGE THROUGH DATA</p>
-                                <a href="https://dattansh.scit.edu/2020-21/" class="btn hist" target="_blank">VISIT</a>
+                                <!-- Portfolio item -->
+                                <div class="col-md-12 col-sm-12 col-xs-12" data-groups='["mobileapps"]'>
+                                    <div class="portfolio-item">
+                                        <div class="portfolio-item-thumb">
+                                            <img src="assets/img/dts21.png" alt="" class="img-res">
+                                            <a href="#" class="rectangle" data-toggle="modal"
+                                                data-target="#portfolioItem3">
+                                                <i class="fa fa-plus"></i>
+                                            </a>
+                                        </div><!-- /.portfolio-item-thumb  -->
+                                        <div class="portfolio-info">
+                                            <h3>VOYAGE THROUGH DATA</h3>
+
+                                        </div><!-- /.portfolio-info  -->
+                                    </div>
+                                </div><!-- /.col-md-3  -->
+
                             </div><!-- /.timeline-body -->
                         </div><!-- /.timeline-panel -->
                     </li>
@@ -554,9 +570,23 @@
                                 </div><!-- /.timeline-date -->
                             </div><!-- /.timeline-heading -->
                             <div class="timeline-body text-center">
+                                <!-- Portfolio item -->
+                                <div class="col-md-12 col-sm-12 col-xs-12" data-groups='["webdesign"]'>
+                                    <div class="portfolio-item">
+                                        <div class="portfolio-item-thumb">
+                                            <img src="assets/img/dts22.png" alt="" class="img-res">
+                                            <a href="#" class="rectangle" data-toggle="modal"
+                                                data-target="#portfolioItem4">
+                                                <i class="fa fa-plus"></i>
+                                            </a>
+                                        </div><!-- /.portfolio-item-thumb  -->
+                                        <div class="portfolio-info">
+                                            <h3>TRANSCEND THROUGH DATA</h3>
 
-                                <p>Transcend Through Data</p>
-                                <a href="https://dattansh.scit.edu/" class="btn hist" target="_blank">VISIT</a>
+                                        </div><!-- /.portfolio-info  -->
+                                    </div>
+                                </div><!-- /.col-md-3  -->
+
                             </div><!-- /.timeline-body -->
                         </div><!-- /.timeline-panel -->
                     </li><!-- /.timeline-inverted -->
@@ -570,148 +600,6 @@
         </section><!-- /.section-history -->
         <!-- End History section -->
 
-        <!-- Portfolio/Works section -->
-        <section class="site-section section-works" id="works">
-            <div class="container">
-                <h2>RECENT WORKS</h2>
-                <p class="section-subtitle"><span>OUR CLIENTS LOVE US! READ WHAT THEY HAVE TO SAY</span></p>
-
-                <div class="portfolio">
-                    <ul class="portfolio-sorting list-inline">
-                        <li><a href="#" class=" active" data-group="all">all</a></li>
-                        <li><a href="#" class="" data-group="webdesign">Web Design</a></li>
-                        <li><a href="#" class="" data-group="webdev">Web Development</a></li>
-                        <li><a href="#" class="" data-group="mobileapps">Mobile apps</a></li>
-                    </ul><!-- /.portfolio-sorting  -->
-
-                    <div id="grid">
-
-                        <!-- Portfolio item -->
-                        <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["webdesign"]'>
-                            <div class="portfolio-item">
-                                <div class="portfolio-item-thumb">
-                                    <img src="assets/img/portfolio-1.jpg" alt="" class="img-res">
-                                    <a href="#" class="rectangle" data-toggle="modal" data-target="#portfolioItem1">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                </div><!-- /.portfolio-item-thumb  -->
-                                <div class="portfolio-info">
-                                    <h3>PSD Template</h3>
-                                    <p>Web Design</p>
-                                </div><!-- /.portfolio-info  -->
-                            </div>
-                        </div><!-- /.col-md-3  -->
-                        <!-- Portfolio item -->
-                        <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["webdev"]'>
-                            <div class="portfolio-item">
-                                <div class="portfolio-item-thumb">
-                                    <img src="assets/img/portfolio-2.jpg" alt="" class="img-res">
-                                    <a href="#" class="rectangle" data-toggle="modal" data-target="#portfolioItem2">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                </div><!-- /.portfolio-item-thumb  -->
-                                <div class="portfolio-info">
-                                    <h3>Website</h3>
-                                    <p>Web Development</p>
-                                </div><!-- /.portfolio-info  -->
-                            </div>
-                        </div><!-- /.col-md-3  -->
-                        <!-- Portfolio item -->
-                        <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["mobileapps"]'>
-                            <div class="portfolio-item">
-                                <div class="portfolio-item-thumb">
-                                    <img src="assets/img/portfolio-4.jpg" alt="" class="img-res">
-                                    <a href="#" class="rectangle" data-toggle="modal" data-target="#portfolioItem3">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                </div><!-- /.portfolio-item-thumb  -->
-                                <div class="portfolio-info">
-                                    <h3>IOS App</h3>
-                                    <p>Mobile App</p>
-                                </div><!-- /.portfolio-info  -->
-                            </div>
-                        </div><!-- /.col-md-3  -->
-                        <!-- Portfolio item -->
-                        <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["webdesign"]'>
-                            <div class="portfolio-item">
-                                <div class="portfolio-item-thumb">
-                                    <img src="assets/img/portfolio-3.jpg" alt="" class="img-res">
-                                    <a href="#" class="rectangle" data-toggle="modal" data-target="#portfolioItem4">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                </div><!-- /.portfolio-item-thumb  -->
-                                <div class="portfolio-info">
-                                    <h3>PSD Template</h3>
-                                    <p>Web Design</p>
-                                </div><!-- /.portfolio-info  -->
-                            </div>
-                        </div><!-- /.col-md-3  -->
-                        <!-- Portfolio item -->
-                        <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["webdev"]'>
-                            <div class="portfolio-item">
-                                <div class="portfolio-item-thumb">
-                                    <img src="assets/img/portfolio-5.jpg" alt="" class="img-res">
-                                    <a href="#" class="rectangle" data-toggle="modal" data-target="#portfolioItem5">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                </div><!-- /.portfolio-item-thumb  -->
-                                <div class="portfolio-info">
-                                    <h3>Wordpress Website</h3>
-                                    <p>Web Development</p>
-                                </div><!-- /.portfolio-info  -->
-                            </div>
-                        </div><!-- /.col-md-3  -->
-                        <!-- Portfolio item -->
-                        <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["mobileapps"]'>
-                            <div class="portfolio-item">
-                                <div class="portfolio-item-thumb">
-                                    <img src="assets/img/portfolio-6.jpg" alt="" class="img-res">
-                                    <a href="#" class="rectangle" data-toggle="modal" data-target="#portfolioItem6">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                </div><!-- /.portfolio-item-thumb  -->
-                                <div class="portfolio-info">
-                                    <h3>Android App</h3>
-                                    <p>Mobile App</p>
-                                </div><!-- /.portfolio-info  -->
-                            </div>
-                        </div><!-- /.col-md-3  -->
-                        <!-- Portfolio item -->
-                        <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["webdev"]'>
-                            <div class="portfolio-item">
-                                <div class="portfolio-item-thumb">
-                                    <img src="assets/img/portfolio-7.jpg" alt="" class="img-res">
-                                    <a href="#" class="rectangle" data-toggle="modal" data-target="#portfolioItem7">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                </div><!-- /.portfolio-item-thumb  -->
-                                <div class="portfolio-info">
-                                    <h3>Woocommerce Website</h3>
-                                    <p>Web Development</p>
-                                </div><!-- /.portfolio-info  -->
-                            </div>
-                        </div><!-- /.col-md-3  -->
-                        <!-- Portfolio item -->
-                        <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["webdesign"]'>
-                            <div class="portfolio-item">
-                                <div class="portfolio-item-thumb">
-                                    <img src="assets/img/portfolio-8.jpg" alt="" class="img-res">
-                                    <a href="#" class="rectangle" data-toggle="modal" data-target="#portfolioItem8">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                </div><!-- /.portfolio-item-thumb  -->
-                                <div class="portfolio-info">
-                                    <h3>PSD Template</h3>
-                                    <p>Web Design</p>
-                                </div><!-- /.portfolio-info  -->
-                            </div>
-                        </div><!-- /.col-md-3  -->
-
-                    </div><!-- /#grid -->
-                </div>
-            </div>
-        </section><!-- /.section-works -->
-        <!-- End Works section -->
         <section class="map col-12" id="contsec">
             <!-- Google Map -->
             <iframe
@@ -724,7 +612,8 @@
         <!-- Twitter section -->
         <section class="section-background section-twitter background-overlay text-center" id="contact">
             <div class="container">
-                <h1 style="color:#16bd07 ;font-weight: bolder; ">GUEST LECTURE COMMITTEE, SCIT</h1>
+                <img src="assets/img/Untitled design (2).png" alt="" class="">
+                <h1 style="color:#16bd07 ;font-weight: bolder; ">GUEST LECTURE COMMITTEE DSDA, SCIT</h1>
             </div>
 
         </section><!-- /.section-twitter-->
@@ -739,8 +628,6 @@
                 <a href="tel:+917318110961">+91-73181-10961</a>
                 <h4>contact 2</h4>
                 <a href="tel:+917715052028">+91-77150-52028<br><br><br></a>
-                <a
-                    href="mailto:guestlecture_dsda@associates.scit.edu">guestlecture_dsda@associates.scit.edu<br><br><br></a>
             </div><!-- .entry-mail -->
             <div class="container">
                 <a href="https://www.facebook.com/ScitGuestLectureDSDA" class="rectangle" target="_blank">
@@ -758,6 +645,9 @@
                 </a>
                 <a href="https://in.linkedin.com/school/scit-pune/" class="rectangle" target="_blank">
                     <i class="fa fa-linkedin"></i>
+                </a>
+                <a href="mailto:guestlecture_dsda@associates.scit.edu" class="rectangle" target="_blank">
+                    <i class="fa fa-envelope"></i>
                 </a>
 
             </div>
@@ -799,7 +689,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
-                    <img class="img-res" src="assets/img/portfolio-1.jpg" alt="">
+                    <img class="img-res" src="assets/img/dts19.png" alt="">
                 </div>
                 <div class="modal-body">
                     <h4 class="modal-title">Project title</h4>
@@ -811,7 +701,7 @@
                         hendrerit.</p>
                 </div>
                 <div class="modal-footer">
-                    <a href="#" class="btn">Visit Page</a>
+                    <a href="https://dattansh.scit.edu/dattansh%2018-19/" class="btn" target="_blank">Visit Page</a>
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
@@ -822,7 +712,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
-                    <img class="img-res" src="assets/img/portfolio-2.jpg" alt="">
+                    <img class="img-res" src="assets/img/dts20.png" alt="">
                 </div>
                 <div class="modal-body">
                     <h4 class="modal-title">Project title</h4>
@@ -834,7 +724,7 @@
                         hendrerit.</p>
                 </div>
                 <div class="modal-footer">
-                    <a href="#" class="btn">Visit Page</a>
+                    <a href="https://dattansh.scit.edu/2019-20/" class="btn" target="_blank">Visit Page</a>
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
@@ -845,7 +735,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
-                    <img class="img-res" src="assets/img/portfolio-4.jpg" alt="">
+                    <img class="img-res" src="assets/img/dts21.png" alt="">
                 </div>
                 <div class="modal-body">
                     <h4 class="modal-title">Project title</h4>
@@ -857,7 +747,7 @@
                         hendrerit.</p>
                 </div>
                 <div class="modal-footer">
-                    <a href="#" class="btn">Visit Page</a>
+                    <a href="https://dattansh.scit.edu/2020-21/" class="btn" target="_blank">Visit Page</a>
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
@@ -868,7 +758,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
-                    <img class="img-res" src="assets/img/portfolio-3.jpg" alt="">
+                    <img class="img-res" src="assets/img/dts22.png" alt="">
                 </div>
                 <div class="modal-body">
                     <h4 class="modal-title">Project title</h4>
@@ -880,7 +770,7 @@
                         hendrerit.</p>
                 </div>
                 <div class="modal-footer">
-                    <a href="#" class="btn">Visit Page</a>
+                    <a href="https://dattansh.scit.edu/" class="btn" target="_blank">Visit Page</a>
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
@@ -1007,6 +897,7 @@
 
     <!-- Custom JS -->
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/timer.js"></script>
 
 </body>
 
