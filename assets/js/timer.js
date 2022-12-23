@@ -17,9 +17,13 @@ setTimeout(() => {myFunction()
     
 }, 5000);
 function myFunction() {
+    var prio= document.getElementById("pro");
+prio.classList.remove("fixing");    
+    var latest = document.getElementById("top");
+latest.classList.remove("hide"); 
     var element = document.getElementById("bgc");
 element.classList.add("hide");
-    var latest = document.getElementById("top");
-latest.classList.remove("hide");    
+
+      
 
 }

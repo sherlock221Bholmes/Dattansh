@@ -36,6 +36,7 @@ html, body {
   padding: 0;
   font-family: "League Spartan", sans-serif;
 }
+.fixing{overflow: hidden;}
 .entry-mail h3,h4{ font-size: larger;
 color:#ffffff;
 font-weight: bolder;
@@ -60,7 +61,7 @@ float:right;} */
 .blue-bg {
   background-color: #2ed16c;
 }
-.bg {
+.bgcover {
   /* The image used */
   background: #000000;
 
@@ -71,6 +72,7 @@ float:right;} */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 .hide{display: none;}
 .timed{
@@ -79,6 +81,7 @@ float:right;} */
     width:100%;
     bottom: -30%;
 }
+#best{height: 100%;}
 
 /* 
  * Button
