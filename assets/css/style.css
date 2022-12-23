@@ -8,6 +8,7 @@
 
 /* CUSTOM RESETS
 ================================================== */
+@import url('https://fonts.cdnfonts.com/css/brixton');
 a, button {
   -webkit-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
@@ -59,6 +60,25 @@ float:right;} */
 .blue-bg {
   background-color: #2ed16c;
 }
+.bg {
+  /* The image used */
+  background: #000000;
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hide{display: none;}
+.timed{
+    position: relative;
+    height:40%;
+    width:100%;
+    bottom: -30%;
+}
 
 /* 
  * Button
@@ -94,7 +114,6 @@ float:right;} */
   background-color: #2ed16c;
   border-color: #2ed16c;
 }
-
 /* 
  * Rectangle 
  */
@@ -349,6 +368,7 @@ color: #000000;
 }
 
 .site-navigation .navbar-nav > li > a {
+  font-family: 'Brixton', sans-serif;
   padding: 0px 3px 25px;
   font-size: 14px;
   line-height: 14px;
@@ -360,6 +380,7 @@ color: #000000;
   -moz-transition: border-color 0.25s ease-in-out;
   transition: border-color 0.25s ease-in-out;
   text-align: center;
+  font-weight: bolder;
   
 }
 
@@ -435,7 +456,7 @@ color: #000000;
   }
   .site-navigation .navbar-collapse {
     position: relative;
-    background-color: #2ed16c;
+    background-color: #000000;
     z-index: 99;
     text-align: center;
     border-top: 0;
@@ -452,6 +473,29 @@ color: #000000;
   .site-navigation .navbar-nav > li + li > a {
     margin-left: 0;
   }
+}
+#preloader {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #000;
+	z-index: 10001;
+}
+
+#loading-animation {
+	position: absolute;
+	
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: auto;
+	height: auto;
+	margin: auto;
+	background-position: center;
+	background: url(/assets/img/Untitled_design-removebg-preview.png) no-repeat center;
 }
 
 /* HERO
@@ -1164,10 +1208,10 @@ height: auto;}
   .logo-img{
     float: left;
     position: relative;
-    top:-25px;
+    top:-12px;
     left: -40px;
-    height: 110px;
-    width:260px;
+    height: 90px;
+    width:220px;
   }
 }
 
@@ -1227,10 +1271,10 @@ width:30%;}
         .logo-img{
           float: left;
           position: relative;
-          top:-25px;
+          top:-12px;
           left: -50px;
-          height: 110px;
-          width:240px;
+          height: 90px;
+          width:200px;
         }
         .scit{display: none;}
       }
@@ -1246,10 +1290,10 @@ width:30%;}
           .logo-img{
             float: left;
             position: relative;
-            top:-25px;
+            top:-12px;
             left: -67px;
-            height: 110px;
-            width:360px;
+            height: 90px;
+            width:300px;
           }
           .scit{display: none;}
           .video-description{top:-82%;
@@ -1265,10 +1309,10 @@ width:30%;}
               .logo-img{
                 float: left;
                 position: relative;
-                top:-25px;
-                left: -86px;
-                height: 110px;
-                width:460px;
+                top:-12px;
+                left: -145px;
+                height: 90px;
+                width:400px;
               }
               .scit{display: none;}
           }      
@@ -1860,11 +1904,14 @@ margin: 10px 18px 10px 18px}
   margin: 0 auto;
   background-color: #ffffff;
   box-shadow: none;
+  width: 60px;
+  height:60px;
 }
 
 .timeline > li.timeline-start .rectangle span, .timeline > li.timeline-end .rectangle span {
-  font-size: 12px;
+  font-size: 15px;
   text-transform: uppercase;
+  font-weight: bolder;
 }
 
 .timeline > li > .timeline-panel {

@@ -12,3 +12,14 @@ document.getElementById("demo").innerHTML = "<em>Days-----Hours-----Minutes-----
         document.getElementById("demo").innerHTML = "";
     }
 }, 1000);
+
+setTimeout(() => {myFunction()
+    
+}, 5000);
+function myFunction() {
+    var element = document.getElementById("bgc");
+element.classList.add("hide");
+    var latest = document.getElementById("top");
+latest.classList.remove("hide");    
+
+}
