@@ -15,7 +15,7 @@ document.getElementById("demo").innerHTML = "<em>Days-----Hours-----Minutes-----
 
 setTimeout(() => {myFunction()
     
-}, 5000);
+}, 2000);
 function myFunction() {
     var prio= document.getElementById("pro");
 prio.classList.remove("fixing");    
