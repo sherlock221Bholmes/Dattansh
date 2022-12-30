@@ -1328,12 +1328,14 @@ width:30%;}
                 float: left;
                 position: relative;
                 top:-15px;
-                left: -145px;
+                left: -80px;
                 height: 100px;
-                width:400px;
+                width:320px;
               }
               .scit{display: none;}
               .site-navigation .navbar-nav > li > a {font-size: 18px;}
+              .timed{width:90%;
+              right:-7%;}
               
           }      
 .para{font-size: 20px;
@@ -1380,8 +1382,12 @@ margin: 10px 18px 10px 18px}
 @media only screen and (max-width: 767px){
   .section-services .carousel-inner img{width:100%;}
 
-}
 
+}
+@media only screen and (max-width: 420px){
+  .timed{height: 30%;
+  bottom:-33%;}
+}
 
 .section-services .item-controls {
   height: 45px;
