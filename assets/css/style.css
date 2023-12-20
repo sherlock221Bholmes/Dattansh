@@ -184,7 +184,7 @@ float:right;} */
   position: absolute;
   top: 0;
   width: 100%;
-  z-index: 9;
+  z-index: 999;
 }
 
 .header_section .container-fluid {
@@ -1649,6 +1649,11 @@ margin: 10px 18px 10px 18px}
 .section-services .item-controls.right i {
   padding-left: 3px;
 }
+.site-section.section-
+s {
+  z-index: 5;
+}
+
 
 .service {
   position: relative;
