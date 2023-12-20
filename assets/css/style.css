@@ -24,7 +24,7 @@ a:hover, a:focus {
 }
 .register-btn{margin-top: 3%;
   position: relative;
-  top:-20px;}
+  }
 .video{padding-top: 50px;}
 
 /* LAYOUT
@@ -104,11 +104,15 @@ float:right;} */
   border-color: #000;
 }
 
+.registration{
+  padding-top: 5px;
+}
 .btn:hover,
 .btn:focus {
-  color: #000;
+  color: #ffffff;
   background-color: transparent;
   border-color: #000;
+  border: 2px solid white;
 }
 
 .btn-inverted:hover,
@@ -1437,6 +1441,17 @@ height: auto;}
     width:220px;
   }
   
+}
+@media only screen and (max-width: 767px) {
+  .btn.register-btn {
+    /* Adjust styles for mobile devices */
+    width: 30%; /* Adjust the width as needed */
+  }
+  .btn.register-btn {
+    /* Your button styles here */
+    display: block;
+    margin: 0 auto; /* This centers the button horizontally */
+  }
 }
 
 @media only screen and (max-width: 600px){
