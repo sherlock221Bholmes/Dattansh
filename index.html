@@ -122,6 +122,31 @@ Version No  :   Revision Date:     Author:                    Details
                 </a>
 
                 <h1> <img src="assets/img/Data Meraki 500x500 (transparent).png" class="mainlogo"></h1>
+                <div class="info-button" onclick="toggleInfoBox()">
+                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                </div>
+                <div class="info-box" id="infoBox">
+                    <p style="text-align: justify; font-size: 11px;">"Data Meraki," is a profound exploration into the realms of technology and innovation, guided by
+                        the richness of the Greek language. In our endeavour to unravel the complexities of the
+                        ever-evolving technological world, we have chosen the Greek word "Meraki" for its inherent power
+                        to encapsulate the essence of our theme. Meraki, a term denoting the act of doing something from
+                        the soul, with passion and creativity, serves as a fitting metaphor for our exploration into the
+                        world of data. In this age dominated by technology, we recognize that every facet of our
+                        existence is shaped by the profound insights and underlying patterns that manifest in data. In
+                        our context, we assert that "Data is Soul."
+                        <br>
+                        Our theme, Data Meraki, casts a comprehensive light on the multifaceted aspects of the
+                        technology-driven landscape. We acknowledge that job domains, professional sectors, interacting
+                        employees, and unique students are all integral players in the intricate dance of data
+                        generation and manipulation. It is through the lens of data that we seek to understand and
+                        implement the language that governs our technological reality. Join us on this journey as we
+                        capture diverse aspects, narratives, translations, and hidden features inherent in the language
+                        of data. Together, let us explore and comprehend the intricacies of this dynamic realm, drawing
+                        inspiration from the Greek concept of Meraki, where each endeavour is infused with the soulful
+                        essence of passion and creativity.</p>
+                    <!-- Add more information as needed -->
+                </div>
+
                 <p id="demo" class="hero-job">
 
                 </p>
@@ -399,8 +424,8 @@ Version No  :   Revision Date:     Author:                    Details
                                                 empowering students with practical insights for future success. Join us
                                                 for a dynamic event that promises to shape your strategic mindset and
                                                 unleash your creative problem-solving potential.
-                                          </p>
-                                          
+                                            </p>
+
                                         </div>
                                     </div>
                                     <div class="col-md-7">
@@ -408,9 +433,8 @@ Version No  :   Revision Date:     Author:                    Details
                                             height="70%">
                                     </div>
                                     <div class="registration"><a href="https://unstop.com/competitions/dataquest-symbiosis-center-for-information-technology-scit-pune-843489
-                                          "
-                    class="btn register-btn" target="_blank">Register</a>
-                    </div>
+                                          " class="btn register-btn" target="_blank">Register</a>
+                                    </div>
                                 </div>
                             </div><!-- /.item -->
                             <!-- Item 2 -->
@@ -424,17 +448,19 @@ Version No  :   Revision Date:     Author:                    Details
                                                 Science could have been employed to analyze viewership patterns,
                                                 enabling targeted content adjustments, personalized recommendations, and
                                                 strategic scheduling, fostering viewer engagement and retention.
-                                                
+
                                             </p>
-                                            
+
                                         </div>
                                     </div>
                                     <div class="col-md-7 ">
                                         <img src="assets/img/Lost Limelight.png" class="img-responsive" alt="">
                                     </div>
-                                    <div class="registration"><a href="https://unstop.com/competitions/lost-limelight-symbiosis-center-for-information-technology-scit-pune-844421"
-                    class="btn register-btn" target="_blank">Register</a>
-                                </div></div>
+                                    <div class="registration"><a
+                                            href="https://unstop.com/competitions/lost-limelight-symbiosis-center-for-information-technology-scit-pune-844421"
+                                            class="btn register-btn" target="_blank">Register</a>
+                                    </div>
+                                </div>
                             </div><!-- /.item -->
                             <!-- Item 3 -->
                             <div id="item3" class="item tab-pane">
@@ -448,17 +474,19 @@ Version No  :   Revision Date:     Author:                    Details
                                                 treemaps. Participants showcase analytical prowess by transforming data
                                                 into compelling visuals, enhancing communication and comprehension
                                                 without traditional presentations, solely relying on impactful graphics.
-                                            
+
                                             </p>
-                                            
+
                                         </div>
                                     </div>
                                     <div class="col-md-7 ">
                                         <img src="assets/img/Visual Wars.png" class="img-responsive" alt="">
                                     </div>
-                                    <div class="registration"> <a href="https://unstop.com/competitions/visual-wars-symbiosis-center-for-information-technology-scit-pune-844445"
-                    class="btn register-btn" target="_blank">Register</a>
-                                </div></div>
+                                    <div class="registration"> <a
+                                            href="https://unstop.com/competitions/visual-wars-symbiosis-center-for-information-technology-scit-pune-844445"
+                                            class="btn register-btn" target="_blank">Register</a>
+                                    </div>
+                                </div>
                             </div><!-- /.item -->
                             <!-- Item 4 -->
                             <!-- <div id="item4" class="item tab-pane">
@@ -611,7 +639,7 @@ Version No  :   Revision Date:     Author:                    Details
                 <a href="https://www.facebook.com/ScitGuestLectureDSDA" class="rectangle bl" target="_blank">
                     <i class="fa fa-facebook"></i>
                 </a>
-                <a href="https://www.instagram.com/dattansh_scit/?hl=en" class="rectangle bl" target="_blank">
+                <a href="https://www.instagram.com/scit_gldsda/" class="rectangle bl" target="_blank">
                     <i class="fa fa-instagram"></i>
                 </a>
                 <!-- <a href="https://twitter.com/MBA_SCIT?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
@@ -796,6 +824,12 @@ Version No  :   Revision Date:     Author:                    Details
 
     <!-- Touchswipe JS -->
     <script src="assets/js/touchswipe.min.js"></script>
+    <script>
+        function toggleInfoBox() {
+            var infoBox = document.getElementById("infoBox");
+            infoBox.style.display = (infoBox.style.display === "none" || infoBox.style.display === "") ? "block" : "none";
+        }
+    </script>
 
     <!-- Custom JS -->
     <script src="assets/js/script.js"></script>

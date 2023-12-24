@@ -7,6 +7,7 @@ function getYear() {
 
 getYear();
 
+
 // overlay menu
 function openNav() {
     var myNav = document.getElementById("myNav");
@@ -39,3 +40,4 @@ $(document).on("click", '[data-toggle="lightbox"]', function (event) {
     event.preventDefault();
     $(this).ekkoLightbox();
 });
+
